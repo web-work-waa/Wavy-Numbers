@@ -1,0 +1,71 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+  display: flex;
+  height: 100vh;
+  background: #000;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  background-image: linear-gradient(
+    0deg,
+    rgb(10, 10, 10),
+    rgb(20, 20, 20),
+    rgb(43, 59, 105)
+  );
+}
+
+svg {
+  width: 80vw;
+  height: auto;
+  max-width: 1200px;
+  margin-top: 1rem;
+}
+
+
+svg text {
+  fill: white;
+  font-size: 20px;
+  user-select: none;
+}
+
+svg line {
+  stroke-width: 1.5;
+  stroke: white;
+}
+
+h2 {
+  font-weight: 400;
+}
+h2 span {
+  font-weight: 750;
+  color: #5cceee;
+}
+
+.branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h1, h2,
+p {
+  margin: 0;
+}
+
+a {
+  background: #5cceee;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+a:hover {
+  background: white;
+    color: #5cceee;
+}
